@@ -4,7 +4,7 @@
 
 # Usage
 ```bash
-$ git clone https://replit.com/@TheGenocide/HangMan.rb
+$ git clone https://github.com/TheGenocides/HangMan.rb
 ```
 
 ```bash
@@ -21,4 +21,4 @@ hang.start
 
 # Note
 
-There is only 5 question in this game, you can add more by contributing in our [](github)
+There is only 5 question in this game, you can add more by contributing to our [Github](https://github.com/TheGenocides/HangMan.rb)
