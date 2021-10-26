@@ -7,7 +7,7 @@ module HANGMAN
                 {"question" => "I'm something in a tree",
                 "answer" => "apple"},
                 {"question" => "I'm a horse", "answer" => "zebra"},
-                {"question" => "This game made with?", "answer" => "ruby"},
+                {"question" => "This game was made with?", "answer" => "ruby"},
                 {"question" => "Im so tired", "answer" => "sleep"}
             ]
             @q = @questions[@ran]['question']
