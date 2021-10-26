@@ -1,0 +1,9 @@
+*main.rb
+*.bundle
+*web
+*animals.rb
+*discord.rb
+*index.rb
+*Gemfile
+*Gemfile.lock
+*.breakpoints
