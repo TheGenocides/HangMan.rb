@@ -69,14 +69,13 @@ module HANGMAN
             end
 
             if @lives >= 1
-                if input.length > 1
+                if  input.length == 0 and input.length < 1 or input.length > 1
                     puts "Please guess one letter per-promt"
                     makeguess
                 
                 elsif guess
-                    @guess_streak += 1
                     print_teaser input
-
+                    @guess_streak += 1
                     @score += add_score
                     if @a == @word_teaser.split.join
                         puts "Game Completed! You won this game with a total of #{ @score } scores and #{ @lives } lives!"
@@ -105,7 +104,7 @@ module HANGMAN
         end
 
         def start
-            puts "Welcome To HangMan: Version 1.0.0\nNew game started! You have #{ @lives } chance to guess the word, Goodluck!"
+            puts "Welcome To HangMan: Version 1.0.5\nNew game started! You have #{ @lives } chance to guess the word, Goodluck!"
             print_teaser
             makeguess
         end
